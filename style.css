@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    margin:  10px;
+    height: 300px;
+}
+
+#country{
+    padding: 10px;
+    margin-top: 30px;
+    background: rgb(182, 227, 245);
+    border: none;
+    box-shadow: none;
+    border-radius: 13px;
+    border-color: none;
+    align-items: center;
+  
+
+
+}
+
+#country::placeholder{
+    color: green;
+}
+#btn{
+    background: rgb(182, 227, 245) ;
+    padding: 10px;
+    border-color: none;
+    border: none;
+    margin-left: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+#btn:hover{
+    background: orange;
+    font-size:x-small;
+}
+#light{
+margin: 10px;
+font-size: larger;
+font-weight: bolder;
+text-align: center;
+}
+sup{
+    font-size:10px;
+}
+.img{
+    text-align: center;
+    margin-top: 20px;
+}
+.wind{
+    display: flex;
+
+}
+
+#pic2{
+    font-size: xx-large;
+}
+#p2{
+    display: flex;
+    margin: 5%;
+}
+#pic1{
+    font-size: xx-large;
+    margin: 5px;
+
+}
+
+#weather{
+background: rgba(45, 45, 127, 0.631); ;
+text-align: center;
+padding: 10px;
+color:rgb(56, 59, 76);
+
+}
+#result{
+    text-align: center;
+}
+@media screen  and (max-width:400px) {
+    #pic2{
+        font-size: smaller;
+    }
+    #p2{
+        display: flex;
+        margin: 5%;
+    }
+    #pic1{
+        font-size: larger;
+        margin: 5px;
+    
+    }
+    .wind{
+        display: flex;
+    
+    }
+
+}
